@@ -16,7 +16,7 @@ WORKDIR /app
 COPY ./app .
 
 # PACKAGES 
-RUN pip install --no-cache-dir -r requirements_d.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # CHANGE DIRECTORY TO ROOT 
 WORKDIR /
