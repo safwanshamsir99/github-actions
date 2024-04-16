@@ -1,5 +1,4 @@
 import main
-import pytest
 
 def test_greet():
     assert main.greet("World") == "Hello, World!"
