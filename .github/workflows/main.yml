@@ -1,4 +1,4 @@
-name: FastAPI Docker Build and Push
+name: FastAPI Docker Build and Push to Dockerhub
 
 on:
     push:
